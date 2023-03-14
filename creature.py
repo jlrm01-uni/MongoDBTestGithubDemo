@@ -43,6 +43,7 @@ else:
     connect(host=os.getenv("CREATURE_DEN_DATABASE_URL"))
     logging.debug("Running on the cloud.")
 
+
 Creature.drop_collection()
 Ability.drop_collection()
 
